@@ -1,0 +1,41 @@
+body {
+  background-color: #f6f8f4;
+  .ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+.weather-app {
+  background: white;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 10px -2px 31px 5px rgba(26, 78, 10, 0.2);
+  border-radius: 15px;
+  padding: 50px;
+  font-family: "Ubuntu", sans-serif;
+}
