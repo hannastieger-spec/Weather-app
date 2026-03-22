@@ -1,41 +1,55 @@
 body {
-  background-color: #f6f8f4;
-  .ubuntu-light {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  .ubuntu-regular {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .ubuntu-medium {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  .ubuntu-bold {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .ubuntu-regular-italic {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
+  background-color: #f0f0db;
+  color: #355f05;
+  font-family: "Saira", sans-serif;
 }
 .weather-app {
   background: white;
   max-width: 600px;
   margin: 50px auto;
-  box-shadow: 10px -2px 31px 5px rgba(26, 78, 10, 0.2);
   border-radius: 15px;
-  padding: 50px;
-  font-family: "Ubuntu", sans-serif;
+  padding: 30px;
+  font-family: "Saira", sans-serif;
+}
+header {
+  border-bottom: 1px solid #f0f0db;
+  padding: 0 0 30px 0;
+}
+a {
+  color: #355f05;
+}
+.search-form-input {
+  font-family: "Saira", sans-serif;
+  color: #355f05;
+  border: 1px solid #355f05;
+  width: 80%;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+.search-form-input::placeholder {
+  color: #878886;
+}
+.search-form-button {
+  font-family: "Saira", sans-serif;
+  border: none;
+  color: white;
+  background-color: #355f05;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 20px;
+  margin-left: 5px;
+}
+h1 {
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  border-top: 1px solid #f0f0db;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: #878886;
 }
