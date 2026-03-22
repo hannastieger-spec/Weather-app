@@ -40,11 +40,40 @@ a {
   padding: 15px 20px;
   margin-left: 5px;
 }
-h1 {
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city {
   font-weight: 600;
   font-size: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 450;
+  color: #878886;
+}
+.weather-app-details strong {
+  color: #355f05;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 35px;
+}
+.weather-app-temperature {
+  font-size: 88px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.weather-app-unit {
+  font-size: 28px;
+  margin-top: 25px;
 }
 footer {
   border-top: 1px solid #f0f0db;
